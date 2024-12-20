@@ -120,7 +120,7 @@ def create_sol_files(input_folder, output_folder):
                 truffle=os.path.join(contract_folder_path, "truffle-config.js")
 
                 initial_migration=os.path.join(migrations_path, "1_initial_migration.js")
-                deploy_migration=os.path.join(migrations_path, "2_deploy_contract.js")
+                deploy_migration=os.path.join(migrations_path, "2_deploy_contracts.js")
 
                 with open(migrations, 'w', encoding='utf-8') as f:
                     f.write(Migration1)
